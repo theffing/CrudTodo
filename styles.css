@@ -1,0 +1,87 @@
+* {
+    /* Adjust margin and padding for every element */
+    margin: 0px;
+    padding: 1px;
+    box-sizing: border-box;
+    background-color: eggshell;
+}
+
+h1, h2 {
+    /* Sets font for the header */
+    font-family: "Boldonse", system-ui;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    /* Sets font for the body */
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 14px;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+form, section {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form textarea {
+    resize: none;
+    width: 100%;
+    min-height: 60px;
+    padding: 14px;
+}
+
+form button {
+    padding: 4px;
+    cursor: pointer;
+}
+
+.todoContainer, .todo {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.todo {
+    padding: 14px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+.buttonCtnr {
+    display: flex;
+    gap: 6px;
+    margin-left: auto;
+}
+
+.iconBtn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 8px;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.iconBtn:hover {
+    background: white;
+}

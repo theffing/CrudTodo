@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta cherset="UTF-8">
+    <meta name=""viewport" content=""width=device-width, initial-scale="1.0">
+    <title>WormoToDo</title>
+    <!-- Links stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Links to 3 fonts, not currently using bytesized -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Bytesized&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- For edit and remove button -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>Wormo the To-Do Worm</h1>
+    <form onsubmit="return false">
+        <textarea placeholder="enter to-do"></textarea>
+        <button id="addBtn">
+            <p>Add Task</p>
+        </button>
+    </form>
+    <section>
+        <h4>Need to Do</h4>
+        <div class="todoContainer">
+            <!-- <div class="todo">
+                <p>This the todo that I have to complete by the end of the day!</p>
+                <div class="btnContainer">
+                    <button class="iconBtn">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                    <button class="iconBtn">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </div>
+            </div> -->
+        </div>
+    </section>
+</body>
+<script src="index.js"></script>
+
+</html>
